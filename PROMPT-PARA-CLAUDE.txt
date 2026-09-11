@@ -1,0 +1,55 @@
+﻿Lee CLAUDE.md, FEATURES.md y LOOK-LIKE-THIS/ antes de tocar nada.
+
+Quiero ESTE MISMO APP publicado como WEBSITE PUBLICO. No lo redisenes. No quites pantallas. No cambies colores, fuentes ni textos.
+
+Producto: Watch Cycles — Bitcoin 1,064 / 364.
+
+Objetivo: un URL publico (Vercel) que cualquiera abra en el telefono y entre SIN LOGIN. Cero Grok, cero "Continue with Grok", cero Sign up, cero cuentas. El link *.grok.me no sirve.
+
+Tiene que verse igual que las fotos en LOOK-LIKE-THIS/: navy #0B1F3A, gold, cream, Fraunces + IBM Plex, boton cafe amarillo #FFDD00.
+
+TODOS LOS TABS, TODOS LOS FEATURES:
+
+1. Header: ES | EN, cafe, Ajustes, franja del ciclo, precio en vivo.
+2. 11 coins, cada una con su propio UP/DOWN de src/lib/coins/catalog.ts:
+   BTC, ETH, SOL, JUP, XRP, BNB, DOGE, ADA, LINK, AVAX, SUI.
+3. Tab Reloj: semaforo alcista/bajista, titulo de fase, dia n/total + barra %,
+   reloj transcurrido + restante (anos/meses/dias/horas/min/seg), presence,
+   fechas (fin de fase / proximo low / proximo high), spot, 24h, ATH, drawdown,
+   zona base, radar analogo ("a cual se parece"), "que hace el mercado" + voz,
+   tarjeta Inviteame un cafe, compartir tarjeta, modo sala.
+4. Tab Mapa: fases historicas frozen + proyectadas, halvings, overlays analogos,
+   copy de estudio por coin.
+5. Tab Chart: klines, ghosts C1/C2, fibs, bandas de ciclo, targets, leyenda.
+   Al cambiar de coin se actualiza.
+6. Tab Alertas: alertas de reloj, volumen/flujo, movimientos agresivos,
+   analogo/pre-giro, mute red box, notificaciones.
+7. Cafe / PayPal / cripto: cafe en header + ClockView + sheet + Ajustes.
+   Cafe $10 / Cena $50 / El reloj $100 + otra cantidad.
+   Boton amarillo Pagar con PayPal. QR Tip Jar.
+   Coins BTC ETH PYUSD LTC BCH SOL LINK.
+   Direcciones YA publicadas en src/lib/tips.ts (NO las borres ni las cambies):
+   - BTC   bc1qcgsuxczyc3k69q4qp8sn9r3tf2dtxtfxv8ll4l
+   - ETH   0x6eec7a70B1782D17cdd0dbAccAF084F5af5f91C3
+   - PYUSD 4M8whmNo6bfLx4Uxs9wV925Uix8R1wLubHs29pymhRhF
+8. Ajustes: zona horaria, ATH, dias UP/DOWN, zonas low, marcar low/high,
+   no-analogo, umbrales de volumen, notificaciones, pegar PayPal.me y
+   direcciones, export/import JSON, export CSV, reset.
+9. Onboarding 4 slides + Saltar. Sin cuenta.
+10. i18n completo ES + EN de src/lib/i18n.ts.
+
+Auth: deja "VITE_AUTH_ENABLED": "false" en .grok/app-env.json.
+No agregues /login. No uses authMiddleware.
+Esta app NO usa base de datos; si PGLite/Nitro falla, quitalo y deja el cliente.
+
+Permitido solo: quitar el muro/chrome de Grok (public/__grok, plugin PWA de Grok)
+si impide un host publico. Publicar en Vercel.
+
+Prohibido: redisenar, quitar JUP o cualquier tab, quitar el cafe, cambiar
+direcciones de the owner, pedir login.
+
+Cuando este live, abrelo en ventana privada: tiene que salir el Reloj YA, no un login.
+En ancho iPhone: los 4 tabs, las 11 coins y el cafe con PayPal + QR BTC/ETH/PYUSD.
+Al final dame SOLO el URL publico.
+
+Hazlo ahora. No preguntes. No redisenes.

@@ -1,0 +1,36 @@
+﻿{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Watch Cycles — Bitcoin 1,064 / 364",
+      "hasCanvas": false,
+      "bodyTextLen": 1723,
+      "bodyTextHash": "2b9da9dde1eb905aefe8f075b05ce12d51a7dc9e1ad4f7814df211024dc567d8",
+      "bodyTextPrefix": "Time = 1,064 / 364. Price = scenario. Flow = alert. Not financia",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Watch Cycles — Bitcoin 1,064 / 364",
+      "hasCanvas": false,
+      "bodyTextLen": 1723,
+      "bodyTextHash": "4a1f37c64a8a3d4ff3127de9a914385edf545c701196a0c1c407172de8759037",
+      "bodyTextPrefix": "Time = 1,064 / 364. Price = scenario. Flow = alert. Not financia",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

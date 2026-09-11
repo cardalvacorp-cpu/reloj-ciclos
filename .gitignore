@@ -1,0 +1,20 @@
+.vercel
+
+# deps
+node_modules
+.node_modules.lock
+
+# build output
+dist
+.output
+.nitro
+.tanstack
+
+# local env (nothing in src/ reads it; keep it off a public repo)
+.env
+.env.*
+!.env.example
+
+# os / editor
+.DS_Store
+Thumbs.db

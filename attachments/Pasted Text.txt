@@ -1,0 +1,137 @@
+﻿Este es el prompt final unificado. Cópialo entero y pégalo en Build.
+
+PROMPT FINAL UNIFICADO — BUILD PWA
+Crea una PWA móvil llamada Watch Cycles — Bitcoin 1,064 / 364. Se abre en el navegador, se puede “Añadir a pantalla de inicio”, vertical, offline con el último dato.
+Es mi predicción personal. Mide Bitcoin en tiempo real con mi base. No es broker, no es señal de compra/venta, no pide login, no identifica personas ni wallets privadas.
+Cabecera siempre visible ES: Tiempo = 1.064 / 364. Precio = escenario. Flujo = aviso. No es asesoría. EN: Time = 1,064 / 364. Price = scenario. Flow = alert. Not financial advice.
+Idioma: ES y EN. Selector ES | EN arriba a la derecha. Default = idioma del celular (es* → ES, si no → EN). Guardar lang en localStorage. Cambia UI, frases, alertas, fechas y voz. Números del modelo iguales. Precio en USD. Voz: es-US / en-US.
+Zona horaria default: America/Chicago. Editable.
+
+0. ONBOARDING (solo la primera vez, 4 pantallas)
+	1	ES: Bitcoin sube 1.064 días y baja 364. / EN: Bitcoin rises 1,064 days and falls 364.
+	2	ES: Hoy estás en la BAJA. Día 324 de 364. / EN: You are in the DOWN phase. Day 324 of 364.
+	3	ES: El precio es un rango, no un target. / EN: Price is a range, not a target.
+	4	Elige ES o EN y Empezar / Start
+
+1. MI BASE
+Génesis — días REALES
+	•	Génesis: 3 ene 2009 → 18 jul 2010 · 561 d
+	•	A SUBE: 18 jul 2010 → 8 jun 2011 · 325 d
+	•	A BAJA: 8 jun 2011 → 19 nov 2011 · 164 d
+	•	B SUBE: 19 nov 2011 → 30 nov 2013 · 742 d
+	•	B BAJA: 30 nov 2013 → 14 ene 2015 · 410 d
+Fotos — 1.064 SUBE / 364 BAJA
+	•	C1 SUBE: 14 ene 2015 → 17 dic 2017 · 1068 / 1064
+	•	C1 BAJA: 17 dic 2017 → 15 dic 2018 · 363 / 364 · ~19.8k → ~3.2k (−84%)
+	•	C2 SUBE: 15 dic 2018 → 10 nov 2021 · 1061 / 1064
+	•	C2 BAJA: 10 nov 2021 → 21 nov 2022 · 376 / 364 · ~69k → ~15.5k (−77%)
+	•	C3 SUBE: 21 nov 2022 → 6 oct 2025 · 1050 / 1064 · ATH 126.198 USD
+	•	C3 BAJA: 6 oct 2025 → 5 oct 2026 · 364 modelo · EN CURSO
+Predicción si el 5 oct 2026 es suelo
+	•	C4 SUBE: 5 oct 2026 → 3 sep 2029
+	•	C4 BAJA: 3 sep 2029 → 2 sep 2030
+	•	C5 SUBE: 2 sep 2030 → 1 ago 2033
+	•	C5 BAJA: 1 ago 2033 → 31 jul 2034
+	•	C6 SUBE: 31 jul 2034 → 29 jun 2037
+	•	C6 BAJA: 29 jun 2037 → 28 jun 2038
+Hoy 26 ago 2026: C3 BAJA · 324/364 · 89% tiempo · spot ~78.441 · −38% vs ATH · faltan 40 d.
+Halvings solo como marcas H en el mapa (H1 28 nov 2012, H2 9 jul 2016, H3 11 may 2020, H4 19 abr 2024). El halving no mueve el reloj.
+Editable (localStorage), recalcula solo C3 BAJA y C4–C6: ATH fecha-hora (2025-10-06 00:00), días SUBE (1064), días BAJA (364), ATH USD (126198), timezone. 2009 → 6 oct 2025 no se toca.
+Si hoy > 5 oct 2026 y no hay suelo real: ES: El suelo modelo ya pasó. Pon el suelo REAL para recalcular. EN: The model low has passed. Set the REAL low to recalculate.
+
+2. TABS
+ES: Reloj · Mapa · Chart · Alertas EN: Clock · Map · Chart · Alerts Engranaje = Ajustes / Settings
+Reloj / Clock Semáforo ALCISTA/BULLISH o BAJISTA/BEARISH. Fase CICLO 3 · BAJA / CYCLE 3 · DOWN. Dos relojes a 1 Hz: recorrido y falta (años, meses, días, horas, min, seg). Barra 324/364. Spot + %24h + % vs ATH + % vs inicio. Rango suelo/techo. Caja PARECIDO AHORA / LOOKS LIKE NOW. Botones: ¿Qué hace el mercado? / What is the market doing? ¿A cuál se parece? / What does it look like? Compartir tarjeta / Share card Modo sala / Room mode (números 3×, sin tabs)
+Mapa / Map Línea 2009→2038. Verde SUBE, rojo BAJA, azul génesis, H halvings. ESTÁS AQUÍ / YOU ARE HERE. Futuros tenues. Tap = fechas, días, rango, analogo.
+Chart Velas reales + bandas + fantasmas 2018/2022 + zonas de precio + volumen.
+Alertas / Alerts Historial + Me importa / Matters y Ruido / Noise.
+
+3. RELOJ
+1 día = 24 h desde el ancla. Años 365.25 d · meses 30.436875 d. setInterval(1000). El reloj nunca depende de Binance.
+Countdowns: fin de fase · próximo techo · próximo suelo · siguiente techo.
+SUBE → mercado alcista hasta techo modelo. BAJA → mercado bajista hasta suelo modelo.
+Hoy: ES: Bajista. Día 324 de 364. Faltan [D h m s] al 5 oct 2026. Después, alcista hasta el 3 sep 2029. EN: Bearish. Day 324 of 364. [D h m s] left until Oct 5, 2026. Then bullish until Sep 3, 2029.
+<30 d a un giro: ES: Zona de posible cambio. El modelo ya se desvió entre −1 y +12 días. EN: Possible turn zone. This model has already missed by −1 to +12 days.
+Cero “compra / vende / guaranteed / 200k sure”.
+
+4. RANGOS DE PRECIO
+Suelo 5 oct 2026 desde 126.198 −50% ~63.1k · base −70/−77% ~29–37.9k · severo −80/−85% ~18.9–25.2k ES: Suelo 5 oct 2026 · 19k–63k · zona base 29k–38k EN: Low Oct 5, 2026 · 19k–63k · base zone 29k–38k
+Múltiplos de subida: no usar 115×. Futuro: 3× / 5×–8× / 12× el suelo. Techo 3 sep 2029 se recálcula si cambia el suelo. ES: Escenario. El reloj no produce precio. EN: Scenario. The clock does not produce price.
+
+5. CHART TIPO TRADINGVIEW
+~55% del alto. BINANCE:BTCUSDT fallback BITSTAMP:BTCUSD. TF 1m 5m 15m 1h 4h 1D 1W · default 1D · log en 1D/1W. Widget TradingView Advanced dark, locale según idioma, timezone Chicago. Fallback: lightweight-charts + klines Binance + Yahoo BTC-USD.
+Bandas de todos mis pasos. Línea dorada HOY. Blanca = fin de fase. Punteadas 2029–2038. Zonas 63k / 29–38k / 19–25k + spot. Cero velas inventadas después de HOY. Presets: Fase actual · Ciclo 3 · Desde 2015 · Génesis · Hasta 2038. Cabecera: spot · %24h · % vs ATH · fase · % fase.
+Si el precio tiene >60 s: ES: Precio congelado. El reloj de ciclo sigue vivo. EN: Price frozen. The cycle clock is still live.
+
+6. RADAR DE PARECIDO (avisa ANTES)
+Compara % tiempo + % precio vs A/B/C1/C2.
+A 89% de una baja 364 d: 2018 ya iba ~−70/−80%; 2022 iba profundo y el suelo llegó día 376 (17 oct 2026). Hoy −38% → no copia en precio.
+Default: ES: 1º Ningún bear clásico. 2º 2022 solo en calendario. Lectura: 89% del tiempo y solo −38%. Vigilar ANTES: 2022 → 29k–38k y 4–17 oct 2026; 2018 → 19k–25k; si el 5 oct pasa sin suelo, los ciclos 1 y 2 ya no sirven de mapa. EN: 1st No classic bear. 2nd 2022 on the calendar only. Reading: 89% of time and only −38%. Watch BEFORE: 2022 → 29k–38k and Oct 4–17, 2026; 2018 → 19k–25k; if Oct 5 passes with no low, cycles 1 and 2 are no longer the map.
+Avisos: desvío ±20 pts a >70% tiempo · fecha modelo sin extremo (líder → 2022, día 376) · 14 d calcado ±8% · ruptura >15% · pre-giro 30/14/7 d · precio en 29–38k antes del día 364 = suelo candidato, no confirmado.
+Fantasmas 2018 y 2022 estirados a 364 d en el chart.
+
+7. SI ME EQUIVOCO
+Ventana oficial C3 suelo: 4–17 oct 2026 (364 ± el +12 de C2).
+Si pasa el 17 oct sin suelo marcado: ES: El mapa 2018/2022 falló en tiempo. No fuerces el ancla. EN: The 2018/2022 map missed on time. Do not force the anchor.
+Botones: Marcar suelo real / Mark real low → fecha + precio → recálcula C4–C6 Marcar techo real / Mark real high Este ciclo no copia / This cycle does not rhyme → radar SIN ANALOGO / NO ANALOG
+Giro confirmado solo si cae en la ventana ±12 d o el usuario marca el extremo real. El flujo nunca cierra el ciclo.
+
+8. MARCADOR DE ACIERTOS
+Tabla: fase · modelo · real · desvío · % movimiento. C1 BAJA −1 d · C2 BAJA +12 d · C3 TBD. Error medio de las bajas: 6.5 días. / Average down-phase miss: 6.5 days.
+
+9. ARRANQUES, BALLENAS, VOLUMEN
+Solo datos públicos. ES: Señal de flujo grande, no una ballena identificada. EN: Large-flow signal, not an identified whale.
+Arranque 1h/4h: 2–3 velas, vol >1.8× volMA20, cierre fuera de 20. <24 h y vuelve = TRAMPA/TRAP. Primeros 10% de fase = arranque de fase.
+En C3 BAJA, arranque alcista = rebote en caja roja, salvo ≤30 d al giro o precio en 29–38k → candidato. Arranque bajista con −38% = movimiento que faltaba para parecerse a 2022/2018.
+Proxies: print 10–20 BTC o cluster 50–100 BTC/h (editable) · delta 1h >2× media 20h · on-chain público si hay · mecha daily vol >2×.
+Vol / volMA20: Normal <1.3 · Alto 1.3–2 · Agresivo 2–3 · Extremo >3. Punto dorado si agresivo.
+Cada alerta en 3 capas: Reloj · Parecido · Flujo.
+
+10. ALERTAS
+Tipos ES: ARRANQUE · BALLENA · VOLUMEN · PARECIDO · GIRO · PRE-GIRO EN: BREAKOUT · WHALE · VOLUME · ANALOG · TURN · PRE-TURN
+Hora, 2 líneas, fase, %, ya lo ví / seen, Me importa/Matters, Ruido/Noise. Push local opt-in. Máx 1 por tipo cada 3–12 h salvo extremo. Agrupar. Pre-giro 30/14/7 d. A los 30 días: de N avisos de ballena, cuántos cayeron ±7 d de un giro.
+
+11. LABORATORIO (en Ajustes)
+Sliders: ATH · días SUBE · días BAJA. Mapa y rangos en vivo. Presets: Mi base / My base · 364 exacto / Exact 364 · C2 (+12 d) · C3 real (1.050).
+Exportar base.json + CSV de fases. Importar ancla. Reset a mi base.
+
+12. TARJETA, WIDGET, MODO SALA
+Tarjeta 1080×1920: semáforo, barra, countdown, spot, descargo, ES o EN. Sin target. Texto de instalación a pantalla de inicio (iOS/Android). Si Build lo permite, widget: BAJISTA 40d 11:22:08 −38%.
+
+13. AJUSTES
+ATH fecha y USD · días SUBE/BAJA · % suelo · múltiplos techo · timezone · umbral BTC · vol agresivo/extremo · TF que alertan · toggles rangos y silenciar rebotes en caja roja · idioma · notificaciones · reset.
+
+14. FRASES
+Hoy: ES: Bajista. 324/364. Spot ~78k (−38%). Zona base 29k–38k todavía no. Faltan [hms] al 5 oct 2026. El reloj parece 2018/2022; el precio no. Si copia 2022, el suelo se vería entre el 4 y el 17 oct, en 29k–38k. EN: Bearish. 324/364. Spot ~78k (−38%). Base zone 29k–38k not reached. [hms] to Oct 5, 2026. The clock looks like 2018/2022; price does not. If it copies 2022, the low would show Oct 4–17 in the 29k–38k zone.
+Pie: ES: Public cycle thesis by Watch Cycles. No es asesoría. EN: Public cycle thesis by Watch Cycles. Not financial advice.
+Toda frase nueva va en ES y EN.
+
+15. DISEÑO Y ACCESO
+Navy #0B1F3A · verde #1B7A4E · rojo #B03A2E · dorado #C9A227 · crema #F7F4EA. Tipo ≥16. Contraste AA. VoiceOver/TalkBack. No transmitir solo con color. Service worker.
+
+16. ACEPTACIÓN
+[ ] Reloj a 1 Hz sin recargar
+[ ] ES/EN cambia UI, frases, fechas y voz
+[ ] 26 ago 2026 = C3 BAJA, 324/364, −38% vs 126198
+[ ] Countdown a 2026-10-05 00:00 America/Chicago
+[ ] Chart sin velas después de HOY
+[ ] Cambiar ATH mueve C4–C6 y no toca 2009–2025
+[ ] Radar default: no copia 2018/2022 en precio
+[ ] Ventana de suelo 4–17 oct 2026
+[ ] Marcar suelo real recalcula extras
+[ ] Sin compra/vende/garantizado
+[ ] Offline: reloj vivo, spot congelado
+[ ] Onboarding solo la primera vez
+[ ] Exportar JSON/CSV
+
+17. ORDEN DE CONSTRUCCIÓN
+	1	Reloj + idioma ES/EN + mi base
+	2	Chart + bandas + rangos
+	3	Mapa 2009–2038
+	4	Radar + si me equivoco + marcador
+	5	Arranques / volumen / flujo
+	6	Alertas + laboratorio + tarjeta + onboarding
+No añadas RSI, funding, otras coins ni “IA predice el precio”.
+Construye eso.
+
+Si Build se corta, mándalo en dos mitades: §0–5 y §6–17.
